@@ -154,11 +154,7 @@
     </dependency>
 
     <!--Vaadin Add ons-->
-    <dependency>
-      <groupId>org.rapidpm.vaadin</groupId>
-      <artifactId>vaadin-fluent-component-api</artifactId>
-      <version>${rapidpm-vaadin-fluent-component-api.version}</version>
-    </dependency>
+
 
     <!--Security-->
 
