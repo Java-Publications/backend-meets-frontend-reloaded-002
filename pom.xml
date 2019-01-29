@@ -86,6 +86,7 @@
     <!--Frameworks-->
     <vaadin.version>10.0.9</vaadin.version>
     <meecrowave.version>1.2.4</meecrowave.version>
+    <rapidpm-logger-adapter.version>01.00.01-RPM</rapidpm-logger-adapter.version>
   </properties>
 
   <!--<repositories>-->
@@ -96,7 +97,7 @@
     <!--</repository>-->
   <!--</repositories>-->
 
-  <!-- Just to disable any accidential deployment to maven.central -->
+  <!-- Just to disable any accidental deployment to maven.central -->
   <distributionManagement>
     <repository>
       <id>localhost</id>
@@ -124,8 +125,8 @@
   <dependencies>
     <dependency>
       <groupId>org.rapidpm</groupId>
-      <artifactId>rapidpm-dependencies-core-logger</artifactId>
-      <version>${rapidpm-dependencies.version}</version>
+      <artifactId>rapidpm-logger-adapter</artifactId>
+      <version>${rapidpm-logger-adapter.version}</version>
     </dependency>
 
     <dependency>
